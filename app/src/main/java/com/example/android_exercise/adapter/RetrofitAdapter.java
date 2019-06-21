@@ -30,10 +30,6 @@ public class RetrofitAdapter extends RecyclerView.Adapter<RetrofitAdapter.MyView
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.retro_item,parent, false);
 
-        //
-       /* DividerItemDecoration itemDecoration=new DividerItemDecoration(mContext,DividerItemDecoration.HORIZONTAL);
-        itemDecoration.setDrawable(ContextCompat.getDrawable(mContext,R.drawable.divider));
-*/
 
         return new MyViewHolder(v);
 

@@ -65,16 +65,13 @@ public class MainActivity extends AppCompatActivity {
                     }else {
                         Toast.makeText(getApplicationContext(),"error in loading",Toast.LENGTH_LONG).show();
                         Log.i("onEmptyResponse", "Returned empty response");
-
                     }
                 }
-
             }
 
             @Override
             public void onFailure(Call<ArrayList<Pozo>> call, Throwable t) {
                 Toast.makeText(getApplicationContext(),"Please check the network connection",Toast.LENGTH_LONG).show();
-
 
             }
         });
